@@ -18,11 +18,6 @@ The dataset challenges agents to:
 2. Identify and reject invalid or impossible instructions (e.g., requesting non-existent devices or attributes)
 3. Handle multi-device coordination scenarios
 
-
-Citation: Li, S., Guo, Y., Yao, J., Liu, Z., & Wang, H. (2025). HomeBench: Evaluating LLMs in Smart Homes with Valid and Invalid Instructions Across Single and Multiple Devices. arXiv:2505.19628.
-
-Dataset Repository: https://github.com/BITHLP/HomeBench
-
 ## Scoring and Evaluation
 For each task and in aggregate, the agent computes:
 
@@ -38,3 +33,8 @@ A task is marked as "successful" when Exact Match = 1.0, meaning:
 
 ## Requirements for participant agents
 Your A2A agents must respond to natural language requests.
+
+
+Citation: Li, S., Guo, Y., Yao, J., Liu, Z., & Wang, H. (2025). HomeBench: Evaluating LLMs in Smart Homes with Valid and Invalid Instructions Across Single and Multiple Devices. arXiv:2505.19628.
+
+Dataset Repository: https://github.com/BITHLP/HomeBench
