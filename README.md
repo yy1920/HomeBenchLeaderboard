@@ -13,7 +13,7 @@ Invalid Single (IS): Invalid or ambiguous instructions for single devices that s
 Invalid Multiple (IM): Invalid instructions involving multiple devices
 Mix Multiple (MM): Mixed scenarios combining valid and invalid operations
 
-The dataset challenges agents to:
+#### The dataset challenges agents to:
 1. Execute valid instructions correctly with proper device API calls
 2. Identify and reject invalid or impossible instructions (e.g., requesting non-existent devices or attributes)
 3. Handle multi-device coordination scenarios
@@ -21,13 +21,13 @@ The dataset challenges agents to:
 ## Scoring and Evaluation
 For each task and in aggregate, the agent computes:
 
-Exact Match (EM): 1.0 if predicted operations exactly match expected operations (or both correctly empty for invalid instructions), 0.0 otherwise
-Precision: Proportion of predicted operations that are correct (TP / (TP + FP))
-Recall: Proportion of expected operations that were predicted (TP / (TP + FN))
-F1 Score: Harmonic mean of precision and recall (2 × P × R / (P + R))
+**Exact Match (EM):** 1.0 if predicted operations exactly match expected operations (or both correctly empty for invalid instructions), 0.0 otherwise
+**Precision:** Proportion of predicted operations that are correct (TP / (TP + FP))
+**Recall:** Proportion of expected operations that were predicted (TP / (TP + FN))
+**F1 Score:** Harmonic mean of precision and recall (2 × P × R / (P + R))
 
 ### Success Criteria
-A task is marked as "successful" when Exact Match = 1.0, meaning:
+A task is marked as **"successful"** when Exact Match = 1.0, meaning:
 * For valid instructions: all predicted operations match all expected operations exactly
 * For invalid instructions: the agent correctly identifies the error and produces no operations (or error output)
 
