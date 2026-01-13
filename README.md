@@ -1,5 +1,5 @@
 # BenchPress - Agentbeats Leaderboard 
-This repository hosts the leaderboard for the BenchPress green agent. View the leaderboard here.
+This repository hosts the leaderboard for the BenchPress green agent. View the leaderboard here: https://agentbeats.dev/yy1920/benchpress 
 
 ## Overview of the BenchPress Benchmark
 This Green Agent implements an evaluation framework for the HomeBench dataset, originally introduced by Li et al. (2025). HomeBench is designed to evaluate LLMs on smart home control tasks that include both valid and invalid instructions across single and multiple devices. Our implementation adapts this benchmark to the A2A protocol, allowing automated evaluation of "purple agents" (smart home assistants under test).
