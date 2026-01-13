@@ -1,15 +1,11 @@
 [green_agent]
-agentbeats_id = ""
-env = { API_KEY = "${GITHUB_SECRET_NAME}", LOG_LEVEL = "INFO" }
+agentbeats_id = "019bb369-26ba-73d0-88fd-9e8191212882"
+image = "ghcr.io/octuplivia247/agentbeats:latest"
+env = {LOG_LEVEL = "INFO" }
 
 [[participants]]
 agentbeats_id = ""
-name = "role_1_name"
-env = {}
-
-[[participants]]
-agentbeats_id = ""
-name = "role_2_name"
+name = "gym_bro"
 env = {}
 
 [config]
