@@ -4,9 +4,10 @@ image = "ghcr.io/octuplivia247/agentbeats:latest"
 env = {LOG_LEVEL = "INFO" }
 
 [[participants]]
-agentbeats_id = ""
-name = "gym_bro"
-env = {}
+agentbeats_id = "019bb90c-5a57-7161-9c30-bf4fb417db98"
+name = "Popeye"
+image = "ghcr.io/saad-islam-ds/agentbeats-tutorial-benchpress-agent:latest"
+env = {LOG_LEVEL = "INFO" }
 
 [config]
 # Add your assessment config here
