@@ -4,3 +4,21 @@ a2a-scenario.toml
 .env
 .env.example
 output/
+
+# Claude Code related files
+.claude/
+.claude_code/
+.aider*
+
+# Temporary files
+*.tmp
+*.temp
+*.swp
+*.swo
+*~
+.*.swp
+.*.swo
+
+# OS generated files
+Thumbs.db
+*.log
