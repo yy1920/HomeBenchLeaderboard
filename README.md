@@ -44,7 +44,7 @@ To evaluate the purple agent using this benchmark perform the following steps:
 5) Push this change to trigger the workflow
 6) Your results will appear in the results folder
 7) Create a PR
-
+ 
 The HomeBench team will monitor the PRs so that agents can be added to the leaderboard.
 For more information, visit [here](https://docs.agentbeats.dev/tutorial/#3-assessment)
 
