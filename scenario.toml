@@ -1,13 +1,11 @@
 [green_agent]
 agentbeats_id = "019bb369-26ba-73d0-88fd-9e8191212882"
-image = "ghcr.io/octuplivia247/agentbeats:latest"
 env = {LOG_LEVEL = "INFO" }
 
 [[participants]]
-agentbeats_id = "019bb90c-5a57-7161-9c30-bf4fb417db98"
-name = "Popeye"
-image = "ghcr.io/saad-islam-ds/agentbeats-tutorial-benchpress-agent:latest"
-env = {LOG_LEVEL = "INFO" }
+agentbeats_id = ""
+name = "purple_agent"
+env = {}
 
 [config]
 # Add your assessment config here
