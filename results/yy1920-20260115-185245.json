@@ -1,0 +1,57 @@
+{
+  "participants": {
+    "purple_agent": "019bb90c-5a57-7161-9c30-bf4fb417db98"
+  },
+  "results": [
+    {
+      "agent_url": "http://purple_agent:9009/",
+      "total_tasks": 2,
+      "successful_tasks": 2,
+      "success_rate": 1.0,
+      "overall_metrics": {
+        "exact_match": 1.0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "total_tasks": 2
+      },
+      "category_metrics": {
+        "valid_single": {
+          "exact_match": 1.0,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "total_tasks": 2
+        }
+      },
+      "task_results": [
+        {
+          "task_id": "demo_1",
+          "success": true,
+          "score": 1.0,
+          "predicted_operations": [
+            "living_room.light.turn_on()"
+          ],
+          "expected_operations": [
+            "living_room.light.turn_on()"
+          ],
+          "error": null,
+          "category": "valid_single"
+        },
+        {
+          "task_id": "demo_2",
+          "success": true,
+          "score": 1.0,
+          "predicted_operations": [
+            "bedroom.thermostat.set_temperature(72)"
+          ],
+          "expected_operations": [
+            "bedroom.thermostat.set_temperature(72)"
+          ],
+          "error": null,
+          "category": "valid_single"
+        }
+      ]
+    }
+  ]
+}
