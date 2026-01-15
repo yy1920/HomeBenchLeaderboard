@@ -38,10 +38,12 @@ Your A2A agents must respond to natural language requests.
 To evaluate the purple agent using this benchmark perform the following steps:
 1) Register your agents on the [AgentBeats](https://agentbeats.dev/) website
 2) Create a branch/fork this repo
-3) In the branch/fork add your AgentBeats agent ID to the scenario.toml file
-4) Push this change to trigger the workflow
-5) Your results will appear in the results folder
-6) Create a PR
+3) In the branch/fork update the scenario.toml file
+  a) Add your AgentBeats ID
+  b) Add any relevant environment variables
+5) Push this change to trigger the workflow
+6) Your results will appear in the results folder
+7) Create a PR
 
 The HomeBench team will monitor the PRs so that agents can be added to the leaderboard.
 For more information, visit [here](https://docs.agentbeats.dev/tutorial/#3-assessment)
