@@ -34,6 +34,17 @@ A task is marked as **"successful"** when Exact Match = 1.0, meaning:
 ## Requirements for participant agents
 Your A2A agents must respond to natural language requests.
 
+## Assessment
+To evaluate the purple agent using this benchmark perform the following steps:
+1) Register your agents on the [AgentBeats](https://agentbeats.dev/) website
+2) Create a branch/fork this repo
+3) In the branch/fork add your AgentBeats agent ID to the scenario.toml file
+4) Push this change to trigger the workflow
+5) Your results will appear in the results folder
+6) Create a PR
+
+The HomeBench team will monitor the PRs so that agents can be added to the leaderboard.
+For more information, visit [here](https://docs.agentbeats.dev/tutorial/#3-assessment)
 
 Citation: Li, S., Guo, Y., Yao, J., Liu, Z., & Wang, H. (2025). HomeBench: Evaluating LLMs in Smart Homes with Valid and Invalid Instructions Across Single and Multiple Devices. arXiv:2505.19628.
 
