@@ -1,0 +1,17 @@
+{
+  "image_digests": {
+    "green-agent": "ghcr.io/octuplivia247/agentbeats@sha256:368b8505dc682e3a4ab61845e506ed189bf3e87f7d0818724a6e11d318787ebe",
+    "purple_agent": "ghcr.io/yy1920/agentbeats-tutorial-benchpress-agent@sha256:d27fd47a0478f363701d34cc4b2932af43e98e268208de12a8773db978c5ca8e",
+    "agentbeats-client": "ghcr.io/agentbeats/agentbeats-client@sha256:13dfe3ef4e583a80e7ce2fe3becd0ce3b879841368a7f4fa40b6ebbabeeb014e"
+  },
+  "timestamp": "2026-01-16T00:30:00Z",
+  "github_actions": {
+    "run_url": "https://github.com/yy1920/HomeBenchLeaderboard/actions/runs/21051217607",
+    "run_logs_url": "https://api.github.com/repos/yy1920/HomeBenchLeaderboard/actions/runs/21051217607/logs",
+    "ref": "refs/heads/video_demo",
+    "sha": "8efe38b2d44f460cfa2acf05f82c4e446ab8d6d9",
+    "repository_url": "https://github.com/yy1920/HomeBenchLeaderboard",
+    "workflow_ref": "yy1920/HomeBenchLeaderboard/.github/workflows/run-scenario.yml@refs/heads/video_demo",
+    "workflow_sha": "8efe38b2d44f460cfa2acf05f82c4e446ab8d6d9"
+  }
+}
