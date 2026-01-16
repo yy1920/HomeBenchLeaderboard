@@ -3,9 +3,9 @@ agentbeats_id = "019bb369-26ba-73d0-88fd-9e8191212882"
 env = {LOG_LEVEL = "INFO" }
 
 [[participants]]
-agentbeats_id = ""
+agentbeats_id = "019bb90c-5a57-7161-9c30-bf4fb417db98"
 name = "purple_agent"
-env = {}
+env = {GROQ_API_KEY = "${GROQ_API_KEY}"}
 
 [config]
 # Add your assessment config here
